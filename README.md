@@ -6,22 +6,22 @@
 
 This library is used on GitHub.com to detect blob languages, ignore binary or vendored files, suppress generated files in diffs, and generate language breakdown graphs.
 
-## Documentation
+### Documentation
 
 - [How Linguist works](/docs/how-linguist-works.md)
 - [Change Linguist's behaviour with overrides](/docs/overrides.md)
 - [Troubleshooting](/docs/troubleshooting.md)
 - [Contributing guidelines](CONTRIBUTING.md)
 
-## Installation
+### Installation
 
-Install the gem:
+Install the gem using bash:
 
 ```bash
 gem install github-linguist
 ```
 
-### Dependencies
+#### Dependencies
 
 Linguist is a Ruby library so you will need a recent version of Ruby installed.
 There are known problems with the macOS/Xcode supplied version of Ruby that causes problems installing some of the dependencies.
